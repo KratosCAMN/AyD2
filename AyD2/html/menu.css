@@ -1,0 +1,41 @@
+/* Estilo del menú */
+.menu {
+    font-family: fantasy;
+    background-color: #545453 ;
+    color: #2d2f3f ;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+}
+
+body {
+    background-color: #040404;
+    margin: 0;
+  }
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+/* Estilo de los botones del menú */
+.menu-btn {
+    color: #e4a028;
+    background-color: #545453 ;
+    padding: 50px 165px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 60px;   
+}
+.menu-btn:hover {
+    background-color: #ffa600; /* Cambiar a color celeste */
+    color: #fff;
+}

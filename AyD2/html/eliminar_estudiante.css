@@ -1,0 +1,98 @@
+/* Estilo del menú */
+.menu {
+    font-family: fantasy;
+    background-color: #545453 ;
+    color: #2d2f3f ;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+}
+
+body {
+    background-color: #040404;
+    margin: 0;
+  }
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.menu li {
+    display: inline;
+    margin: 0px;
+}
+
+.menu a {
+    text-decoration: none;
+    
+}
+
+/* Estilo de los botones del menú */
+.menu-btn {
+    color: #e4a028;
+    background-color: #545453 ;
+    padding: 50px 165px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 60px;   
+}
+.menu-btn:hover {
+    background-color: #ffa600; 
+    color:  #fff;
+}
+/*DIVICION DEL MENU
+/* Estilos para el formulario de filtrado */
+form {
+    margin-top: 0PX;
+    font-family: fantasy;
+    font-size: 50px;
+    margin: 30px;
+    padding: 30px;
+    background-color: #545453;
+    border-radius: 22px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select, input[type="text"], button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 40PX;
+    background-color: #545453;
+    color: #ffa600;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Estilos para la tabla de resultados */
+table {
+    margin: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #464646;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #007BFF;
+    color: #d42424;
+}

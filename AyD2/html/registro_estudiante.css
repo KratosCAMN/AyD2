@@ -1,0 +1,121 @@
+/* Estilo del menú */
+.menu {
+    font-family: fantasy;
+    background-color: #545453 ;
+    color: #2d2f3f ;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+}
+
+body {
+    background-color: #040404;
+    margin: 0;
+  }
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+/* Estilo de los botones del menú */
+.menu-btn {
+    color: #e4a028;
+    background-color: #545453 ;
+    padding: 50px 165px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 60px;   
+}
+.menu-btn:hover {
+    background-color: #ffa600; /* Cambiar a color celeste */
+    color: #fff;
+}
+/* Estilos para el formulario de registro de estudiantes */
+.registro-estudiante {
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    padding: 50px;
+    width: 480px;
+    margin: 40px;
+    margin-top: 150x;
+    text-align: left;
+}
+
+.registro-estudiante h2 {
+    margin: 0;
+}
+
+.registro-estudiante label {
+    display: block;
+    margin-top: 10px;
+}
+
+.registro-estudiante input[type="text"],
+.registro-estudiante input[type="date"],
+.registro-estudiante input[type="tel"],
+.registro-estudiante input[type="email"],
+.registro-estudiante select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registro-estudiante button {
+    width: 100%;
+    font-size: 50px;
+    background-color: #545453;
+    color: #ffa600;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.registro-estudiante button:hover {
+    background-color: #ffa600;
+    color: #fff;
+}
+
+.center-container {
+    display: flex;
+    margin-top: 10px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 28px;
+    padding: 200px;
+    margin: -850px;
+    margin-left: 655px;
+    color: #ffffff;
+    padding: 50px;
+    width: 480px;
+}
+.center-container2 {
+    margin-top: 00px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    margin: -803px;
+    margin-top:455px;
+    margin-left: 1280px;
+    color: #ffffff;
+    padding: 50px;
+    width: 480px;
+}
